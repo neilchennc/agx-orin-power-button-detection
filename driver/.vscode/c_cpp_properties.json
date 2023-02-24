@@ -1,0 +1,24 @@
+{
+    "configurations": [
+        {
+            "name": "Linux Device Driver",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "/usr/src/linux-headers-5.10.104-tegra-ubuntu20.04_aarch64/kernel-5.10/**",
+                "/usr/src/linux-headers-5.10.104-tegra-ubuntu20.04_aarch64/kernel-5.10/include/**",
+                "/usr/src/linux-headers-5.10.104-tegra-ubuntu20.04_aarch64/kernel-5.10/arch/arm64/include/**"
+            ],
+            "forcedInclude": [
+                "/usr/src/linux-headers-5.10.104-tegra-ubuntu20.04_aarch64/kernel-5.10/include/generated/autoconf.h"
+            ],
+            "defines": [
+                "__KERNEL__",
+                "MODULE"
+            ],
+            "compilerPath": "/usr/bin/gcc",
+            "cStandard": "c11",
+            "intelliSenseMode": "linux-gcc-arm64"
+        }
+    ],
+    "version": 4
+}
