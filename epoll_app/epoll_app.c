@@ -3,6 +3,7 @@
  * from custom Linux device driver via epoll.
  *
  * Author: Neil Chen <neilchennc@gmail.com>
+ * Github: https://github.com/neilchennc/agx-orin-power-button-detection
  * Created at: 2023-02-22
  * Version: 1.0
  */

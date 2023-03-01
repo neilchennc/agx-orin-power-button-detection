@@ -8,6 +8,7 @@
  * Tested on L4T R35.2.1 (kernel: 5.10.104-tegra)
  *
  * Author: Neil Chen <neilchennc@gmail.com>
+ * Github: https://github.com/neilchennc/agx-orin-power-button-detection
  * Created at: 2023-02-22
  * Version: 1.0
  */
