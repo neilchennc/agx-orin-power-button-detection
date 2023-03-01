@@ -1,15 +1,18 @@
 {
+    "env": {
+        "kernelSourcePath": "/usr/src/linux-headers-5.10.104-tegra-ubuntu20.04_aarch64/kernel-5.10"
+    },
     "configurations": [
         {
             "name": "Linux Device Driver",
             "includePath": [
                 "${workspaceFolder}/**",
-                "/usr/src/linux-headers-5.10.104-tegra-ubuntu20.04_aarch64/kernel-5.10/**",
-                "/usr/src/linux-headers-5.10.104-tegra-ubuntu20.04_aarch64/kernel-5.10/include/**",
-                "/usr/src/linux-headers-5.10.104-tegra-ubuntu20.04_aarch64/kernel-5.10/arch/arm64/include/**"
+                "${kernelSourcePath}/**",
+                "${kernelSourcePath}/include/",
+                "${kernelSourcePath}/arch/arm64/include/"
             ],
             "forcedInclude": [
-                "/usr/src/linux-headers-5.10.104-tegra-ubuntu20.04_aarch64/kernel-5.10/include/generated/autoconf.h"
+                "${kernelSourcePath}/include/generated/autoconf.h"
             ],
             "defines": [
                 "__KERNEL__",
